@@ -7491,6 +7491,7 @@ li.creator__text__name {
   text-align: center;
   font-weight: 700;
   margin-top: auto;
+  margin-bottom: calc(5 / 1600 * 100vw);
 }
 @media (max-width: 500px) {
   .tarif__old-price {
@@ -7515,6 +7516,7 @@ li.creator__text__name {
   font-style: italic;
   text-align: center;
   opacity: 0.3;
+  margin-top: calc(3 / 1600 * 100vw);
 }
 @media (max-width: 500px) {
   .tarif__msg {
@@ -7524,7 +7526,7 @@ li.creator__text__name {
 
 .tarif__btn {
   width: 100%;
-  margin-top: 1.25vw;
+  margin-top: calc(24 / 1600 * 100vw);
 }
 @media (max-width: 500px) {
   .tarif__btn {
@@ -7550,9 +7552,9 @@ li.creator__text__name {
 
 .tarif__item__pic2 {
   right: unset;
-  left: 54%;
+  left: 51%;
   transform: translate(-50%, 0);
-  top: calc(-115 / 1600 * 100vw);
+  top: calc(-125 / 1600 * 100vw);
 }
 .tarif__content {
   margin-top: 5.375vw;
@@ -11525,6 +11527,7 @@ form.popup-timer__form {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
+  z-index: 1;
 }
 
 .training-structure__item {
@@ -11565,17 +11568,20 @@ form.popup-timer__form {
   padding: 0 calc(20 / 1600 * 100vw) calc(20 / 1600 * 100vw);
   margin-bottom: 0;
   color: #252D4D;
+  font-size: calc(16 / 1600 * 100vw);
+  line-height: 130%;
 }
 
 
 .training-structure__item-1 {
   left: calc(140 / 1600 * 100vw);
   top: calc(50 / 1600 * 100vw);
+  z-index: 1;
 }
 
 .training-structure__item-2 {
   top: calc(137 / 1600 * 100vw);
-  right: calc(105 / 1600 * 100vw);
+  right: calc(90 / 1600 * 100vw);
 }
 
 .training-structure__item-2 .training-structure__head {
@@ -11586,6 +11592,7 @@ form.popup-timer__form {
   top: calc(370 / 1600 * 100vw);
   left: calc(50 / 1600 * 100vw);
   width: calc(360 / 1600 * 100vw);
+  z-index: 1;
 }
 
 .training-structure__item-3 .training-structure__head {
@@ -11595,6 +11602,8 @@ form.popup-timer__form {
 .training-structure__item-4 {
   top: calc(442 / 1600 * 100vw);
   right: calc(48 / 1600 * 100vw);
+  width: calc(300 / 1600 * 100vw);
+  z-index: 1;
 }
 
 .training-structure__item-4 .training-structure__head {
@@ -11759,4 +11768,41 @@ form.popup-timer__form {
   .tarif__name3 {
     font-size: calc(34 / 360 * 100vw);
   }
+}
+
+.questions-9 .questions__form {
+  height: calc(350 / 1600 * 100vw);
+  padding-top: calc(51 / 1600 * 100vw);
+}
+
+.questions-9 .questions__form__title {
+  margin-bottom: calc(32 / 1600 * 100vw);
+}
+
+.questions-9 .popup-timer__policy {
+  margin-top: calc(20 / 1600 * 100vw);
+}
+
+.tarif__bottom__courses a span {
+  font-size: calc(16 / 1600 * 100vw);
+}
+
+.program__link-9 {
+  margin-top: 0;
+}
+
+.diplomas__title {
+  margin-bottom: calc(39 / 1600 * 100vw);
+}
+
+.diplomas__row__content {
+  padding-top: calc(60 / 1600 * 100vw);
+}
+
+li.diplomas__list__1 {
+  align-items: flex-start;
+}
+
+li.diplomas__list__1:before {
+  margin-top: calc(3 / 1600 * 100vw);
 }
