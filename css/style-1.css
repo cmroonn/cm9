@@ -11827,3 +11827,13 @@ li.diplomas__list__1:before {
 .scroll-to-tarif {
   margin-top: calc(40  / 1600 * 100vw);
 }
+
+@media (max-width: 500px) {
+  .popup-basic__desc {
+    margin-bottom: 6.25vw;
+  }
+
+  .popup-basic__title {
+    margin-bottom: 3.2222222222vw;
+  }
+}
