@@ -8810,7 +8810,7 @@ form.popup-timer__form {
 @media (max-width: 500px) {
   .popup-timer__policy {
     max-width: unset;
-    margin-top: 2.7777777778vw;
+    margin-top: 3.7777777778vw;
     margin-bottom: 4.1666666667vw;
   }
 }
@@ -11787,7 +11787,7 @@ form.popup-timer__form {
 @media (max-width: 500px) {
 
   .questions-9 .popup-timer__policy {
-    margin-top: calc(10 / 360 * 100vw);
+    margin-top: calc(13 / 360 * 100vw);
   }
   .questions-9 .questions__form {
     padding: 8.3333333333vw 5.5555555556vw;
