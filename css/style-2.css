@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "/wp-content/themes/convertmonster/css/edu-1/fonts/RF-Dewi/stylesheet.css";
+@import "../fonts/RF-Dewi/stylesheet.css";
 body {
     padding: 0;
     margin: 0;
