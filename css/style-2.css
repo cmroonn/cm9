@@ -12252,6 +12252,7 @@ li.diplomas__list__1:before {
         font-size: calc(16 / 360 * 100vw);
         margin-bottom: calc(20 / 360 * 100vw);
         display: block;
+        width: 100%;
     }
 
     .footer__col-mob {
