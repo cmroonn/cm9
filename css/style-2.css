@@ -12269,6 +12269,7 @@ li.diplomas__list__1:before {
         border-bottom: 1px solid #434E71;
         margin-top: calc(25 / 360 * 100vw);
         margin-bottom: calc(30 / 360 * 100vw);
+        padding-top: 0;
     }
 
     .footer__logo {
