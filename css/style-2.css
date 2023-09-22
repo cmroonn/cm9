@@ -4750,7 +4750,7 @@ a.basic-btn {
 }
 
 .footer__links li {
-    margin-bottom: 0.5625vw;
+    /*margin-bottom: 0.5625vw;*/
     line-height: 130%;
     text-align: right;
 }
@@ -12080,7 +12080,39 @@ li.diplomas__list__1:before {
 .footer__list li a {
     color: rgba(143, 160, 189, 1);
     text-decoration: none;
+    transition: .2s ease;
+    position: relative;
 }
+
+.footer__list li a:hover {
+    color: rgba(201, 211, 228, 1);
+    transition: .2s ease;
+}
+
+.footer__block__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: width 0.5s;
+}
+
+.footer__block__link:hover::after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1px;
+    background-color: #fff;
+    transition: width 0.5s;
+}
+
 
 .footer__list {
     margin-bottom: calc(25 / 1600 * 100vw);
@@ -12092,6 +12124,8 @@ li.diplomas__list__1:before {
     color: #fff;
     display: block;
     margin-bottom: calc(20 / 1600 * 100vw);
+    position: relative;
+    width: fit-content;
 }
 
 .footer__block h4 {
@@ -12115,19 +12149,29 @@ li.diplomas__list__1:before {
 .footer__socials a {
     text-decoration: none;
     margin-right: calc(10 / 1600 * 100vw);
+    display: inline-block;
 }
 
 .footer__socials a:last-child {
     margin-right: 0;
 }
 
-.footer__socials img {
+.footer__socials img, .footer__socials svg {
     width: calc(40 / 1600 * 100vw);
     height: calc(40 / 1600 * 100vw);
 }
 
+.footer__socials svg path {
+    transition: .2s ease;
+}
+
+.footer__socials a:hover svg path.bg {
+    fill: #488EF8;
+    transition: .2s ease;
+}
+
 .footer__info:last-child {
-    margin-top: calc(80 / 1600 * 100vw);
+    /*margin-top: calc(80 / 1600 * 100vw);*/
 }
 
 
@@ -12146,6 +12190,10 @@ li.diplomas__list__1:before {
     text-align: right;
 }
 
+.footer__phones a:hover {
+    text-decoration: underline;
+}
+
 .footer__phones a:last-child {
     font-size: calc(16 / 1600 * 100vw);
     margin-top: calc(3 / 1600 * 100vw);
@@ -12159,8 +12207,16 @@ li.diplomas__list__1:before {
     font-size: calc(14 / 1600 * 100vw);
 }
 
+
 .footer__col-mob {
     display: none;
+}
+
+.footer__arda {
+    width: calc(200 / 1600 * 100vw);
+    height: calc(32 / 1600 * 100vw);
+    margin: calc(25 / 1600 * 100vw) auto;
+    display: block;
 }
 
 @media (max-width: 500px) {
@@ -12258,7 +12314,7 @@ li.diplomas__list__1:before {
         font-size: calc(16 / 360 * 100vw);
     }
 
-    .footer__socials img {
+    .footer__socials img, .footer__socials svg  {
         width: calc(40 / 360 * 100vw);
         height: calc(40 / 360 * 100vw);
     }
