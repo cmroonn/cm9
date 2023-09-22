@@ -12251,6 +12251,7 @@ li.diplomas__list__1:before {
     .footer__block__link {
         font-size: calc(16 / 360 * 100vw);
         margin-bottom: calc(20 / 360 * 100vw);
+        display: block;
     }
 
     .footer__col-mob {
@@ -12342,4 +12343,6 @@ li.diplomas__list__1:before {
         display: block;
 
     }
+
+
 }
